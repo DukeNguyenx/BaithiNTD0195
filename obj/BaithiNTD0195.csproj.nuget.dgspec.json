@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BaithiNTD0195\\BaithiNTD0195\\BaithiNTD0195.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\BaithiNTD\\BaithiNTD0195\\BaithiNTD0195.csproj": {}
   },
   "projects": {
-    "D:\\BaithiNTD0195\\BaithiNTD0195\\BaithiNTD0195.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\BaithiNTD\\BaithiNTD0195\\BaithiNTD0195.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaithiNTD0195\\BaithiNTD0195\\BaithiNTD0195.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Máy tính\\BaithiNTD\\BaithiNTD0195\\BaithiNTD0195.csproj",
         "projectName": "BaithiNTD0195",
-        "projectPath": "D:\\BaithiNTD0195\\BaithiNTD0195\\BaithiNTD0195.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\BaithiNTD\\BaithiNTD0195\\BaithiNTD0195.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\BaithiNTD0195\\BaithiNTD0195\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\BaithiNTD\\BaithiNTD0195\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

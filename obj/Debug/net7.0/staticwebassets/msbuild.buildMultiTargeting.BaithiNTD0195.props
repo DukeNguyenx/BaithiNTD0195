@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BaithiNTD0195.props" />
+</Project>
